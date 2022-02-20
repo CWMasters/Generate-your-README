@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require ('fs');
 const inquirer = require ('inquirer');
+const generateMarkdown = require('./src/page-template');
 
 
 // TODO: Create an array of questions for user input
@@ -84,14 +85,8 @@ const promptUser = () => {
             name: 'questions',
             message: 'Please add your GitHub username and email to allow communication for additional questions'
         }
-
-
-
-
-
-
     ])
-}
+};
 
 
 // TODO: Create a function to write README file
