@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require ('fs');
 const inquirer = require ('inquirer');
-const generateMarkdown = require('./src/page-template');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
@@ -36,8 +36,9 @@ const promptUser = () => {
         {
             type: 'checkbox',
             name: 'Contents',
-            message: 'Please select all/any elements to apply to your table of contents! (Required)',
+            message: 'Please select all/any elements to apply to your table of contents!',
             choices: ['installation', 'Usage', 'License', 'Contribution', 'Test', 'Questions']
+            
         },
         {
             type: 'input',
@@ -83,18 +84,33 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'questions',
-            message: 'Please add your GitHub username and email to allow communication for additional questions'
-        }
+            message: 'Please enter you GitHub User name:'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter you email to allow further communication or additional questions:'
+        },
     ])
 };
 
 
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
+
+promptUser()
+//   .then((response) => generateMarkdown(response))
+//   .then(readmeData => {
+//     return generateInput(readmeData);
+//   });
+ 
+
+
 
 // TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
 init();
-promptUser();
+// promptUser();
