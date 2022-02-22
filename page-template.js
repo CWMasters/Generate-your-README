@@ -34,5 +34,5 @@ const pageTemplate = () => {
 };
 
   
-// module.exports = pageTemplate;
+module.exports = pageTemplate;
 

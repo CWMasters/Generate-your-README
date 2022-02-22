@@ -1,7 +1,9 @@
 // TODO: Include packages needed for this application
-const fs = require ('fs');
+
+// const fs = require ('fs');
 const inquirer = require ('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+const writeFile = require('./utils/generate-input.js');
 
 
 // TODO: Create an array of questions for user input
@@ -100,10 +102,16 @@ const promptUser = () => {
 // function writeToFile(fileName, data) {}
 
 promptUser()
-//   .then((response) => generateMarkdown(response))
-//   .then(readmeData => {
-//     return generateInput(readmeData);
-//   });
+  .then(generateMarkdown)
+  .then(readmeInput => {
+    return writeFile(readmeInput);
+  })
+//   .then(pageREADME => {
+//     return writeFile(pageREADME);
+//   })
+.catch(err => {
+    console.log(err);
+});
  
 
 
