@@ -11,7 +11,7 @@ const promptUser = () => {
     return inquirer.prompt ([
         {
             type: 'input',
-            name: 'project title',
+            name: 'projectTitle',
             message: 'What is the title of your project? (Required)',
             validate: nameInput => {
                 if (nameInput) {
@@ -37,7 +37,7 @@ const promptUser = () => {
         },
         {
             type: 'checkbox',
-            name: 'Contents',
+            name: 'contents',
             message: 'Please select all/any elements to apply to your table of contents!',
             choices: ['installation', 'Usage', 'License', 'Contribution', 'Test', 'Questions']
             
@@ -102,7 +102,8 @@ const promptUser = () => {
 // function writeToFile(fileName, data) {}
 
 promptUser()
-  .then(generateMarkdown)
+  .then(response => generateMarkdown(response))
+  
   .then(readmeInput => {
     return writeFile(readmeInput);
   })

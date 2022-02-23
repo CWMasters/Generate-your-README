@@ -9,7 +9,8 @@ const pageTemplate = () => {
     
     ## Table of Contents
     ${contents}
-    ['installation', 'Usage', 'License', 'Contribution', 'Test', 'Questions']
+    - [Installation](#installation) 
+    'Usage', 'License', 'Contribution', 'Test', 'Questions']
     
     ## Installation
     ${installation}
