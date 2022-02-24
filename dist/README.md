@@ -1,8 +1,8 @@
-# Generate your README
+# README
   ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
   ## Descritption
-  Utilizing NODE.js to generate a proffesional README file to be used for any project. User will input for each prompt and upon completion will be presented with a README file fit for any repo.
+  User input will generate a readme file to utilize with their project
     
   ## Table of Contents
   - [Installation](#installation) 
@@ -13,17 +13,17 @@
   - [Questions](#questions)
   
   ## Installation
-  First install NODE.js and open your Terminal, then install Inquirer (npm i inquirer), then again in your terminal type node index. You will be presented with a series of prompts for you to complete in relation to your project, once finished you will be presented with a complete README file ready for use.
+  Ensure you have Node.js installed, clone the repo into VS code and follow the prompts 
     
   ## Usage
-  Using node.js create a README fle by following and answering each prompt.
+  follow the prompts to complete and generate your readme file for your project
     
   ## License
   This project is covered under [MIT](https://opensource.org/licenses/MIT) License.
   
     
   ## Contribution
-  Created by myself Chris Masters. 
+  Myself, Chris Masters
     
   ## Test
   N/A
