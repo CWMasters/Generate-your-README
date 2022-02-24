@@ -31,4 +31,13 @@
   ## Questions
   For any further Questions regarding this project, please reach me via email chrismasters_326@outlook.com or contact me via GitHub (https://github.com/CWMasters)
   
+  ## Additional information
+  * README file was generated using the application I created during the challenge for module 10. I did NOT use a License for it, but wanted to present as an example.
+  * Link to video tutorial created via Screencastify - 
+
+  ## Screenshot
+  ![Screen Shot 2022-02-24 at 8 19 59 AM (2)](https://user-images.githubusercontent.com/95546410/155618992-a3eabe50-dabe-4a66-a1b2-a2bd90c06ef0.png)
+
+  
+  
     
