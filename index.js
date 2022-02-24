@@ -86,12 +86,28 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'questions',
-            message: 'Please enter you GitHub User name:'
+            message: 'Please enter you GitHub User name: (Required)',
+            validate: questionsInput => {
+                if (questionsInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your GitHub username!');
+                    return false
+                }
+            }
         },
         {
             type: 'input',
             name: 'email',
-            message: 'Please enter you email to allow further communication or additional questions:'
+            message: 'Please enter you email to allow further communication or additional questions: (Required)',
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email!');
+                    return false
+                }
+            }
         },
     ])
 };

@@ -1,9 +1,8 @@
-# chris
-
-  
+# ds
+  ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
   ## Descritption
-  chrus
+  ds
     
   ## Table of Contents
   - [Installation](#installation) 
@@ -20,8 +19,7 @@
   ds
     
   ## License
-  This project is covered under Apache License.
-  [![License](https://opensource.org/licenses/Apache-2.0)
+  This project is covered under [MIT](https://opensource.org/licenses/MIT) License.
   
     
   ## Contribution
@@ -31,7 +29,7 @@
   ds
     
   ## Questions
-  For any further Questions regarding this project, please reach me via email chrismasters_326@outlook.com or contact me via GitHub CWMasters(https://github.com/CWMasters)
+  For any further Questions regarding this project, please reach me via email ds or contact me via GitHub (https://github.com/ds)
   
     
     
