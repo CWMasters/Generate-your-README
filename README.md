@@ -33,7 +33,7 @@
   
   ## Additional information
   * README file was generated using the application I created during the challenge for module 10. I did NOT use a License for it, but wanted to present as an example.
-  * Link to video tutorial created via Screencastify - https://drive.google.com/file/d/15AJp_FEFUs8G67tKjVTAn-6rXAZMcM_-/view
+  * Link to video tutorial created via Screencastify - https://drive.google.com/file/d/1oK3eKHFAdu216ZKvWMT3A3QY7GNCQS0u/view
 
   ## Screenshot
   ![Screen Shot 2022-02-24 at 8 19 59 AM (2)](https://user-images.githubusercontent.com/95546410/155618992-a3eabe50-dabe-4a66-a1b2-a2bd90c06ef0.png)
